@@ -1,0 +1,15 @@
+div.Posts{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: stretch;
+margin-inline: 10%;
+
+}
+div.Post{
+    border: 5px solid black;
+}
+div.Posts>div.Post{
+    border: 5px solid black;
+}
